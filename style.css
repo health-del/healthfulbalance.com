@@ -1,0 +1,262 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    background-color:rgb(249, 237, 223);
+}
+.logo img{
+    width: 100px;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    transition: background 0.5;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+   font-size: 20px;
+
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 40px 50;
+    align-items: right;
+    height: 50vh;
+    
+    height:600px;
+
+}
+.col-2 h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5;
+  
+}
+.btn:hover{
+    background: #563434;
+}
+li:hover{
+        background: rgb(239, 155, 94);
+    }
+.section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.course:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.campus-col img{
+ margin: 20px;'
+ height: 50vh;
+ width: 500px;
+ padding: 30px 30px;
+ display: inline-block;
+}
+
+.campus-col img{
+  opacity: 0.7;
+  transition: 0.5;
+  
+}
+.campus-col img:hover{
+ opacity: 10;
+}
+.Activity-col img{
+    margin: 20px;
+   padding-top: 20px;
+   opacity: 0.7;
+   transition: 0.5;
+   width: 350px;
+}
+.Activity-col img:hover{
+    opacity: 10;
+}
+.Activity{
+    padding-top: 40px;
+}
+.row-col{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Facilities{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+.Facilities:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.Facilities img{
+    width: 50px;
+    height: 70px;
+
+}
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(w.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.sike{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.book{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.book:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 414px) {
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+        transition: background 0.5;
+        font-size: 10px;
+    
+    }
+    .logo img{
+        width: 50px;
+        padding: 0%;
+    }
+    .col-2 img{
+        max-width: 50%;
+        padding: 70px 50;
+        align-items: right;
+        height: 40vh;
+        
+        height:400px;
+    
+    }
+    .col-2 h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 25px 0;
+        
+    }
+    .course{
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5;
+    }
+    h3{
+        text-align: center;
+        font-weight: 400;
+        margin: 10px 0;
+}
